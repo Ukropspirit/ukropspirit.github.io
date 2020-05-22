@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+
+html {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16 px;
+    line-height: 1.5;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'PT Sans Caption', sans-serif; */
+
+/*......................................
+
+GRID
+
+..................................... */
+
+.container {
+    width:1140px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.row {
+
+}
+
+.row:after {
+    clear: both;
+    display: table;
+    content:""; 
+}
+
+.col-4 {
+    width:360px;
+    float:left;
+    margin-right:30px;
+}
+
+.col-4:last-child {
+    margin-right:0px;
+}
+
+
+/*......................................
+
+HEADER
+
+..................................... */
+
+.header {
+    background: #343c4e;
+    background-image: url("img/1475063748_shapka-sayta-internet-b7s.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+    position: relative;
+}
+
+.header__title {
+    font-size: 56px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    margin-top:-50px;
+}
+
+.header__slogan {
+    font-size: 20px;
+    line-height:42px;
+}
+
+.header__arrow {
+    font-size:48px;
+    width:60px;
+    height:50px;
+    margin-left:-30px;
+    position: absolute;
+    bottom:50px;
+    left:50%; 
+}
+
+
+/*......................................
+
+PORTFOLIO
+
+..................................... */
+
+.portfolio {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.title {
+    font-size: 46px;
+    margin-bottom: 60px;
+    font-family: 'Merriweather', serif; 
+    text-align: center;
+    
+}
+
+.portfolio-item__img {
+    margin-bottom: 17px;
+}
+
+.portfolio-item__title {
+    font-size:26px;
+    line-height:normal;
+    margin-bottom:5px; 
+}
+
+.portfolio-item__title a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #FFF;
+}
+
+.portfolio-item__title a:hover {
+    color:#0052C2;
+    border-color:rgba(0, 82, 194, 0.3);
+}
+    
+.portfolio-item__text p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+}
+/*......................................
+
+FOOTER
+
+..................................... */
+
+.footer {
+    background-color: #061634;
+    color: #6479a2;
+    padding-top: 90px;
+    padding-bottom: 190px;
+}
+
+.footer p {
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.footer_name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Merriweather', serif; 
+    
+}
+
+.footer__social {
+    color:#FFF;
+}
+
+.footer__social-icons {
+    color:#FFF;
+    font-size: 32px;
+}
+
+.footer__social-icons a {
+    color:#FFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.footer__social-icons a:last-child {
+    margin-right: 0px;
+}
+
+.footer__social-icons a:hover {
+    color:#FFE440;
+}
+
+.button {
+    font-weight: 700;
+    text-decoration: none;
+    color:white;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    padding: 8px 23px;
+    margin-bottom: 13px;
+    
+}
+
+.button:hover {
+    color:#061634;
+    background: #FFF;
+}
